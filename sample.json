@@ -1,0 +1,24 @@
+{ "projects":
+  [{
+  "projName": " DARTER - A Micro Pen with a hidden secret",
+  "projCreator": "Ornisi",
+  "projDescription": "Having this little secret in your pocket will help you out of some embarrassing situations. A must have for your Every Day Carry -EDC",
+  "pledgeGoal": "10000",
+  "pledgedAmount": "50000",
+  "backers": "15"
+}, {
+  "projName": "Hexbot: The Modular All-In-1 Desktop Robot Arm For Everyone",
+  "projCreator": "HexBot Robotics",
+  "projDescription": "0.05mm high repeatability at an affordable price. Turn your desktop into a workshop. You can easily do laser engraving, 3D printing.",
+  "pledgeGoal": "16000",
+  "pledgedAmount": "70000",
+  "backers": "25"
+}, {
+  "projName": "PrintBrush™ XDR -Colors. Everywhere.",
+  "projCreator": "PrintDreams",
+  "projDescription": "First color inkjet printer for smartphones. Go paperless. Go truly mobile. Save the planet",
+  "pledgeGoal": "20000",
+  "pledgedAmount": "80000",
+  "backers": "20"
+}]
+}

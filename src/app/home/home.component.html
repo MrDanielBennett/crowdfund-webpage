@@ -1,3 +1,8 @@
-<h1>Projects to be funded</h1>
+<h3>All Projects</h3>
 
-<h3>PROJECT</h3>
+<div *ngFor="let project of projects | async" class="project-card">
+  <div>
+    <h3>{{ project.projName }}</h3>
+    <p>By {{ project.projCreator }}</p>
+  </div>
+</div>

@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'CrowdFunding';
 
   user;
-  
+
   private isLoggedIn: Boolean;
   private userName: String;
 
@@ -23,7 +23,7 @@ export class AppComponent {
         this.isLoggedIn = true;
         this.userName = user.displayName;
       }
-      console.log(user);
+      //console.log(user);
     });
   }
 
