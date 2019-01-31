@@ -1,8 +1,9 @@
 <h3>All Projects</h3>
 
-<div *ngFor="let project of projects | async" class="project-card">
+<div *ngFor="let project of projects | async" (click)="gotToDetailsPage(project)" class="project-card">
   <div>
     <h3>{{ project.projName }}</h3>
     <p>By {{ project.projCreator }}</p>
+    <h1>{{project.$key}}</h1>
   </div>
 </div>
