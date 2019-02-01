@@ -1,3 +1,13 @@
 <div>
-<h1>{{(projectToDisplay | async)?.projName}}</h1>
+<h3><em>{{(projectToDisplay | async)?.projName}}</em> by {{(projectToDisplay | async)?.projCreator}}</h3>
+<h3>{{(projectToDisplay | async)?.projDescription}}</h3>
+<h3>Current amount Raised: {{(projectToDisplay | async)?.pledgedAmount | currency}} / {{(projectToDisplay | async)?.pledgeGoal | currency}}</h3>
+<h5>Backers: {{(projectToDisplay | async)?.backers}}</h5>
+
+<button (click)="fund()">Fund</button>
+<p>{{message}}</p>
+</div>
+
+<div *ngIf="showFundForm === true">
+<app-donate [selectedProject]="projectToDisplay"></app-donate>
 </div>

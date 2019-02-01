@@ -23,7 +23,7 @@ export class AppComponent {
         this.isLoggedIn = true;
         this.userName = user.displayName;
       }
-      //console.log(user);
+      console.log(this.isLoggedIn);
     });
   }
 
